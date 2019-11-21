@@ -74,4 +74,3 @@ jobs:
           branches:
             only:
             - master
-
