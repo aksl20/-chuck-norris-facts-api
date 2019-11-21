@@ -63,10 +63,6 @@ jobs:
               --allow-unauthenticated \
               --memory 1G
 
-
-
-workflows:
-  version: 2
   test-build-deploy:
     jobs:
     - unittests:
@@ -79,3 +75,4 @@ workflows:
           branches:
             only:
             - master
+
