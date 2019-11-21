@@ -1,5 +1,5 @@
 version: 2.0
-workflows:
+jobs:
   unittests:
     working_directory: ~/repo
     docker:
